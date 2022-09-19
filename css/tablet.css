@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container--left{
+    width: 30%;
+}
+.container--right{
+    width: 70%;
+}
+.experience .box {
+    display: flex;
+    flex-direction: row;
+}
+.box .left {
+    min-width: 150px;
+}
+.mainContainer {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.interest {
+    display:flex;
+    justify-content: space-evenly
+}
